@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ChevronDown, Zap } from "lucide-react";
+import { Menu, X, Zap, FileSearch } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -70,6 +70,21 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            {/* Resume Review — special link */}
+            <Link
+              href="/resume-review"
+              className={`relative flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                pathname === "/resume-review"
+                  ? "text-purple-600 bg-purple-50"
+                  : "text-gray-600 hover:text-purple-700 hover:bg-purple-50"
+              }`}
+            >
+              <FileSearch className="w-3.5 h-3.5" />
+              Resume Review
+              <span className="absolute -top-1.5 -right-1 px-1.5 py-0.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-[9px] font-bold rounded-full leading-none">
+                FREE
+              </span>
+            </Link>
           </nav>
 
           {/* CTA Button */}
@@ -117,6 +132,23 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              {/* Resume Review mobile */}
+              <Link
+                href="/resume-review"
+                className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-medium transition-colors ${
+                  pathname === "/resume-review"
+                    ? "text-purple-600 bg-purple-50"
+                    : "text-gray-700 hover:bg-purple-50 hover:text-purple-700"
+                }`}
+              >
+                <span className="flex items-center gap-2">
+                  <FileSearch className="w-4 h-4" />
+                  Resume Review
+                </span>
+                <span className="px-2 py-0.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-[10px] font-bold rounded-full">
+                  FREE
+                </span>
+              </Link>
               <Link
                 href="/contact"
                 className="mt-2 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-semibold rounded-xl text-center"
