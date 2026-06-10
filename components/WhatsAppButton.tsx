@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "917404051406";
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hi! I'm interested in learning more about GS Technology courses and placement assistance."
 );

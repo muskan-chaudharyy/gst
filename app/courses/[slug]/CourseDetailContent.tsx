@@ -113,7 +113,7 @@ export default function CourseDetailContent({ course }: { course: Course }) {
                 Enroll Now
               </Link>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/917404051406"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center px-6 py-3.5 border-2 border-green-500 text-green-600 font-bold rounded-xl hover:bg-green-50 transition-all duration-200"

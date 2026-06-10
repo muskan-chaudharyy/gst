@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Phone, Mail, MapPin, Send, CheckCircle } from "lucide-react";
 import { toast } from "sonner";
+import { submitToSheets } from "@/lib/submitToSheets";
 
 type FormData = {
   name: string;
@@ -34,8 +35,15 @@ export default function ContactSection() {
   } = useForm<FormData>();
 
   const onSubmit = async (data: FormData) => {
-    // Simulate form submission
-    await new Promise((r) => setTimeout(r, 1000));
+    await submitToSheets({
+      name: data.name,
+      email: data.email,
+      phone: data.phone,
+      course: data.course,
+      message: data.message ?? "",
+      submittedAt: new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }),
+      source: "home-form",
+    });
     setSubmitted(true);
     reset();
     toast.success("Inquiry submitted! We'll reach out within 24 hours.");
@@ -77,8 +85,8 @@ export default function ContactSection() {
               {
                 icon: Phone,
                 title: "Call Us",
-                value: "+91 98765 43210",
-                href: "tel:+919876543210",
+                value: "+91 74040 51406",
+                href: "tel:+917404051406",
                 color: "bg-blue-100 text-blue-600",
               },
               {

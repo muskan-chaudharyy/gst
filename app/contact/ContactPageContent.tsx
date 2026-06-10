@@ -10,10 +10,10 @@ import {
   Send,
   CheckCircle,
   Clock,
-  MessageSquare,
 } from "lucide-react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { toast } from "sonner";
+import { submitToSheets } from "@/lib/submitToSheets";
 
 type FormData = {
   name: string;
@@ -52,7 +52,16 @@ export default function ContactPageContent() {
   } = useForm<FormData>();
 
   const onSubmit = async (data: FormData) => {
-    await new Promise((r) => setTimeout(r, 1200));
+    await submitToSheets({
+      name: data.name,
+      email: data.email,
+      phone: data.phone,
+      course: data.course,
+      background: data.background,
+      message: data.message ?? "",
+      submittedAt: new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }),
+      source: "contact-page",
+    });
     setSubmitted(true);
     reset();
     toast.success("Message sent! We'll be in touch within 24 hours.");
@@ -108,8 +117,8 @@ export default function ContactPageContent() {
                 {
                   icon: Phone,
                   title: "Phone",
-                  lines: ["+91 98765 43210", "+91 87654 32109"],
-                  href: "tel:+919876543210",
+                  lines: ["+91 74040 51406"],
+                  href: "tel:+917404051406",
                   color: "bg-blue-100 text-blue-600",
                 },
                 {
@@ -174,7 +183,7 @@ export default function ContactPageContent() {
                     { icon: FaInstagram, href: "#", label: "Instagram" },
                     { icon: FaLinkedin, href: "#", label: "LinkedIn" },
                     { icon: FaYoutube, href: "#", label: "YouTube" },
-                    { icon: FaWhatsapp, href: `https://wa.me/919876543210`, label: "WhatsApp" },
+                    { icon: FaWhatsapp, href: `https://wa.me/917404051406`, label: "WhatsApp" },
                   ].map(({ icon: Icon, href, label }) => (
                     <a
                       key={label}
