@@ -124,8 +124,8 @@ export default function ContactPageContent() {
                 {
                   icon: Mail,
                   title: "Email",
-                  lines: ["info@gstechnology.in", "admissions@gstechnology.in"],
-                  href: "mailto:info@gstechnology.in",
+                  lines: ["gaibisahibtech@gmail.com"],
+                  href: "mailto:gaibisahibtech@gmail.com",
                   color: "bg-green-100 text-green-600",
                 },
                 {
