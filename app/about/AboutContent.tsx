@@ -156,9 +156,9 @@ export default function AboutContent() {
             <p className="text-gray-600 leading-relaxed mb-5">
               Founded in Hisar, GS Technology started with a single classroom and
               a big dream: to make quality tech education accessible and
-              placement-focused. Over 4 years, we&apos;ve grown into a
+              placement-focused. We&apos;ve grown into a
               full-scale training institute serving 2,500+ students across
-              Maharashtra.
+              India.
             </p>
             <p className="text-gray-600 leading-relaxed">
               What sets us apart is our uncompromising focus on outcomes. Every
@@ -216,7 +216,7 @@ export default function AboutContent() {
       </section>
 
       {/* Team */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -256,7 +256,7 @@ export default function AboutContent() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Quick stats bar */}
       <section className="py-14 bg-gradient-to-r from-blue-600 to-indigo-700">
