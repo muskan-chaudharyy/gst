@@ -92,14 +92,14 @@ export default function ContactSection() {
               {
                 icon: Mail,
                 title: "Email Us",
-                value: "info@gstechnology.in",
-                href: "mailto:info@gstechnology.in",
+                value: "gaibisahibtech@gmail.com",
+                href: "mailto:gaibisahibtech@gmail.com",
                 color: "bg-green-100 text-green-600",
               },
               {
                 icon: MapPin,
                 title: "Visit Us",
-                value: "GS Technology Center, Pune, Maharashtra 411001",
+                value: "GS Technology Center, Hisar",
                 href: "#map",
                 color: "bg-purple-100 text-purple-600",
               },
