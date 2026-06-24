@@ -132,7 +132,7 @@ export default function ContactSection() {
               <div className="text-center text-gray-400">
                 <MapPin className="w-8 h-8 mx-auto mb-2" />
                 <p className="text-sm">GS Technology Center</p>
-                <p className="text-xs">Pune, Maharashtra</p>
+                <p className="text-xs">Hisar Harayana</p>
               </div>
             </div>
           </motion.div>

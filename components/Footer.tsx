@@ -121,7 +121,7 @@ export default function Footer() {
                 <span className="text-sm text-gray-400">
                   GS Technology Center,
                   <br />
-                  Pune, Maharashtra 411001
+                Hisar,Haryana 125037
                 </span>
               </li>
               <li className="flex items-center gap-3">

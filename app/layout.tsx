@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "data analytics",
     "Power BI training",
     "IoT training",
-    "Pune training institute",
+   
   ],
   authors: [{ name: "GS Technology" }],
   openGraph: {
