@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 import {
   Phone,
   Mail,
@@ -14,6 +14,7 @@ import {
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { toast } from "sonner";
 import { submitToSheets } from "@/lib/submitToSheets";
+import CourseSelect from "@/components/CourseSelect";
 
 type FormData = {
   name: string;
@@ -23,17 +24,6 @@ type FormData = {
   background: string;
   message: string;
 };
-
-const courses = [
-  "Business Analyst",
-  "Web Development",
-  "Java Full Stack",
-  "MERN Stack",
-  "Data Analytics",
-  "Power BI",
-  "IoT Training",
-  "Not sure yet — need counseling",
-];
 
 const backgrounds = [
   "College Student",
@@ -47,6 +37,7 @@ export default function ContactPageContent() {
   const {
     register,
     handleSubmit,
+    control,
     formState: { errors, isSubmitting },
     reset,
   } = useForm<FormData>();
@@ -311,18 +302,18 @@ export default function ContactPageContent() {
                       <label className="block text-sm font-medium text-gray-700 mb-1.5">
                         Course Interest *
                       </label>
-                      <select
-                        {...register("course", { required: "Please select" })}
-                        className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      >
-                        <option value="">Select a course...</option>
-                        {courses.map((c) => (
-                          <option key={c} value={c}>{c}</option>
-                        ))}
-                      </select>
-                      {errors.course && (
-                        <p className="text-red-500 text-xs mt-1">{errors.course.message}</p>
-                      )}
+                      <Controller
+                        name="course"
+                        control={control}
+                        rules={{ required: "Please select a course" }}
+                        render={({ field }) => (
+                          <CourseSelect
+                            value={field.value ?? ""}
+                            onChange={field.onChange}
+                            error={errors.course?.message}
+                          />
+                        )}
+                      />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1.5">
