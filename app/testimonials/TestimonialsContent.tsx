@@ -15,7 +15,7 @@ const testimonials = [
     initials: "RS",
     color: "bg-blue-600",
     course: "Business Analyst",
-    text: "GS Technology completely transformed my career. I was stuck in a dead-end job with no direction. The BA course was incredibly practical — from requirement gathering to Agile project management. The trainers have real industry experience and the placement team is genuinely invested in your success. I landed a job at TCS within 6 weeks of completing the program.",
+    text: "GS Technologies completely transformed my career. I was stuck in a dead-end job with no direction. The BA course was incredibly practical — from requirement gathering to Agile project management. The trainers have real industry experience and the placement team is genuinely invested in your success. I landed a job at TCS within 6 weeks of completing the program.",
   },
   {
     name: "Priya Patel",
@@ -48,7 +48,7 @@ const testimonials = [
     initials: "SK",
     color: "bg-orange-600",
     course: "Java Full Stack",
-    text: "Java Full Stack training at GS Technology is top-notch. The Spring Boot content was particularly excellent — covering microservices, security, and deployment on AWS. Real projects, industry expert instructors, and a placement team that actually secures interviews. I had 5 interview calls within 2 weeks of job applications.",
+    text: "Java Full Stack training at GS Technologies is top-notch. The Spring Boot content was particularly excellent — covering microservices, security, and deployment on AWS. Real projects, industry expert instructors, and a placement team that actually secures interviews. I had 5 interview calls within 2 weeks of job applications.",
   },
   {
     name: "Rohit Desai",
@@ -70,7 +70,7 @@ const testimonials = [
     initials: "AS",
     color: "bg-pink-600",
     course: "Web Development",
-    text: "As a non-CS graduate, I was worried about entering IT. GS Technology's Web Development course removed all those doubts. The structured approach, supportive mentors, and continuous practice made me confident. The placement team helped me craft a resume that actually got noticed. Now I'm a Frontend Developer at HCL!",
+    text: "As a non-CS graduate, I was worried about entering IT. GS Technologies's Web Development course removed all those doubts. The structured approach, supportive mentors, and continuous practice made me confident. The placement team helped me craft a resume that actually got noticed. Now I'm a Frontend Developer at HCL!",
   },
   {
     name: "Karan Mehta",
@@ -92,7 +92,7 @@ const testimonials = [
     initials: "NJ",
     color: "bg-teal-600",
     course: "Business Analyst",
-    text: "I was a working professional looking to transition from testing to BA. GS Technology's weekend batch was perfect for my schedule. The trainers understood industry dynamics and the curriculum reflected current trends. With their placement support, I made a successful transition to Accenture — with a significant salary jump.",
+    text: "I was a working professional looking to transition from testing to BA. GS Technologies's weekend batch was perfect for my schedule. The trainers understood industry dynamics and the curriculum reflected current trends. With their placement support, I made a successful transition to Accenture — with a significant salary jump.",
   },
   {
     name: "Vikram Pawar",
@@ -103,7 +103,7 @@ const testimonials = [
     initials: "VP",
     color: "bg-red-600",
     course: "Data Analytics",
-    text: "GS Technology's Data Analytics program opened doors I didn't know existed. The Python and SQL depth was exceptional. The capstone project we built is still on my portfolio and impresses interviewers. Placed at LTIMindtree with the best package in my batch. Can't thank GS Technology enough.",
+    text: "GS Technologies's Data Analytics program opened doors I didn't know existed. The Python and SQL depth was exceptional. The capstone project we built is still on my portfolio and impresses interviewers. Placed at LTIMindtree with the best package in my batch. Can't thank GS Technologies enough.",
   },
 ];
 
@@ -125,7 +125,7 @@ export default function TestimonialsContent() {
               Stories That Inspire
             </h1>
             <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-              Real students. Real companies. Real success. See how GS Technology
+              Real students. Real companies. Real success. See how GS Technologies
               has changed careers across India.
             </p>
           </motion.div>

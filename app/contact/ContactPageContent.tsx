@@ -123,7 +123,7 @@ export default function ContactPageContent() {
                   icon: MapPin,
                   title: "Address",
                   lines: [
-                    "GS Technology Center",
+                    "GS Technologies Center",
                     "Hisar, Haryana 125037",
                   ],
                   href: "#map",
@@ -197,7 +197,7 @@ export default function ContactPageContent() {
               >
                 <div className="text-center text-gray-400">
                   <MapPin className="w-8 h-8 mx-auto mb-2" />
-                  <p className="text-sm font-medium">GS Technology Center</p>
+                  <p className="text-sm font-medium">GS Technologies Center</p>
                   <p className="text-xs">Hisar, Haryana 125037</p>
                 </div>
               </div>

@@ -86,7 +86,7 @@ export default function AboutContent() {
             transition={{ duration: 0.7 }}
           >
             <span className="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-300 rounded-full text-sm font-medium mb-6">
-              About GS Technology
+              About GS Technologies
             </span>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6 leading-tight">
               Bridging the Gap Between{" "}
@@ -95,7 +95,7 @@ export default function AboutContent() {
               </span>
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed max-w-3xl mx-auto">
-              GS Technology was founded with a simple but powerful belief — that
+              GS Technologies was founded with a simple but powerful belief — that
               every motivated student deserves a real shot at a technology
               career, regardless of their background.
             </p>
@@ -154,7 +154,7 @@ export default function AboutContent() {
               Our Story
             </h2>
             <p className="text-gray-600 leading-relaxed mb-5">
-              Founded in Hisar, GS Technology started with a single classroom and
+              Founded in Hisar, GS Technologies started with a single classroom and
               a big dream: to make quality tech education accessible and
               placement-focused. We&apos;ve grown into a
               full-scale training institute serving 2,500+ students across

@@ -14,11 +14,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "GS Technology | Training & Placement Institute",
-    template: "%s | GS Technology",
+    default: "GS Technologies | Training & Placement Institute",
+    template: "%s | GS Technologies",
   },
   description:
-    "GS Technology offers industry-aligned training in Business Analysis, Web Development, Java Full Stack, MERN Stack, Data Analytics, Power BI, and IoT with 100% placement assistance.",
+    "GS Technologies offers industry-aligned training in Business Analysis, Web Development, Java Full Stack, MERN Stack, Data Analytics, Power BI, and IoT with 100% placement assistance.",
   keywords: [
     "IT training institute",
     "placement assistance",
@@ -30,21 +30,21 @@ export const metadata: Metadata = {
     "IoT training",
    
   ],
-  authors: [{ name: "GS Technology" }],
+  authors: [{ name: "GS Technologies" }],
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "https://gstechnology.in",
-    siteName: "GS Technology",
-    title: "GS Technology | Training & Placement Institute",
+    siteName: "GS Technologies",
+    title: "GS Technologies | Training & Placement Institute",
     description:
-      "Launch your tech career with GS Technology's industry-focused training and 100% placement assistance.",
+      "Launch your tech career with GS Technologies's industry-focused training and 100% placement assistance.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "GS Technology | Training & Placement Institute",
+    title: "GS Technologies | Training & Placement Institute",
     description:
-      "Launch your tech career with GS Technology's industry-focused training and 100% placement assistance.",
+      "Launch your tech career with GS Technologies's industry-focused training and 100% placement assistance.",
   },
   robots: {
     index: true,

@@ -13,7 +13,7 @@ const testimonials = [
     rating: 5,
     image: "RS",
     color: "bg-blue-500",
-    text: "GS Technology completely transformed my career. The BA course was incredibly practical — I landed a job at TCS within 6 weeks of completing the program. The placement support is genuinely unmatched.",
+    text: "GS Technologies completely transformed my career. The BA course was incredibly practical — I landed a job at TCS within 6 weeks of completing the program. The placement support is genuinely unmatched.",
     course: "Business Analyst",
   },
   {
@@ -63,7 +63,7 @@ const testimonials = [
     rating: 5,
     image: "AS",
     color: "bg-pink-500",
-    text: "The web development course built my confidence to apply to senior positions. GS Technology's structured curriculum and continuous support made all the difference.",
+    text: "The web development course built my confidence to apply to senior positions. GS Technologies's structured curriculum and continuous support made all the difference.",
     course: "Web Development",
   },
 ];
@@ -86,7 +86,7 @@ export default function TestimonialsSection() {
             Stories That Inspire
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Real students, real results. See how GS Technology has changed
+            Real students, real results. See how GS Technologies has changed
             careers.
           </p>
         </motion.div>

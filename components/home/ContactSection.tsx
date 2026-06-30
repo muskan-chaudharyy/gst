@@ -91,7 +91,7 @@ export default function ContactSection() {
               {
                 icon: MapPin,
                 title: "Visit Us",
-                value: "GS Technology Center, Hisar",
+                value: "GS Technologies Center, Hisar",
                 href: "#map",
                 color: "bg-purple-100 text-purple-600",
               },
@@ -123,7 +123,7 @@ export default function ContactSection() {
             >
               <div className="text-center text-gray-400">
                 <MapPin className="w-8 h-8 mx-auto mb-2" />
-                <p className="text-sm">GS Technology Center</p>
+                <p className="text-sm">GS Technologies Center</p>
                 <p className="text-xs">Hisar Harayana</p>
               </div>
             </div>

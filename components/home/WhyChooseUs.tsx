@@ -84,7 +84,7 @@ export default function WhyChooseUs() {
           className="text-center mb-14"
         >
           <span className="inline-block px-4 py-1.5 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-            Why GS Technology
+            Why GS Technologies
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
             The GS Advantage

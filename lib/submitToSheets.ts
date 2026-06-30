@@ -1,6 +1,6 @@
 /**
  * Submits form data to a Google Apps Script web app, which appends
- * a row to the GS Technology leads Google Sheet.
+ * a row to the GS Technologies leads Google Sheet.
  *
  * HOW TO GET THE URL (see README or ask Kiro):
  * 1. Create a Google Sheet with headers in Row 1

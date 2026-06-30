@@ -231,7 +231,7 @@ export default function PlacementContent() {
               Our Hiring Partners
             </h2>
             <p className="text-gray-500 mb-8">
-              Companies that trust GS Technology students.
+              Companies that trust GS Technologies students.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               {partners.map((company) => (
@@ -254,7 +254,7 @@ export default function PlacementContent() {
             Ready to Launch Your Career?
           </h2>
           <p className="text-green-100 mb-6">
-            Join GS Technology today and get access to our complete placement
+            Join GS Technologies today and get access to our complete placement
             support ecosystem.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

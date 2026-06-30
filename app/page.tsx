@@ -9,7 +9,7 @@ import CTASection from "@/components/home/CTASection";
 import ContactSection from "@/components/home/ContactSection";
 
 export const metadata: Metadata = {
-  title: "GS Technology | Training & Placement Institute",
+  title: "GS Technologies | Training & Placement Institute",
   description:
     "India's trusted training and placement institute. Industry-aligned courses in Business Analysis, Web Development, Java, MERN Stack, Data Analytics, Power BI, and IoT.",
 };

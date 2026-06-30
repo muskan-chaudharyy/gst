@@ -47,7 +47,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col leading-none">
                 <span className="text-white font-bold text-lg tracking-tight">
-                  GS Technology
+                  GS Technologies
                 </span>
                 <span className="text-blue-400 text-[10px] font-medium tracking-wider uppercase">
                   Training & Placement
@@ -119,7 +119,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-blue-400 mt-0.5 shrink-0" />
                 <span className="text-sm text-gray-400">
-                  GS Technology Center,
+                  GS Technologies Center,
                   <br />
                 Hisar,Haryana 125037
                 </span>
@@ -148,7 +148,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500 text-center sm:text-left">
-            © {new Date().getFullYear()} GS Technology. All rights reserved.
+            © {new Date().getFullYear()} GS Technologies. All rights reserved.
           </p>
           <div className="flex items-center gap-5">
             <Link
